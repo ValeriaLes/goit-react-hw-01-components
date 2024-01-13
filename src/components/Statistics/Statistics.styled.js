@@ -22,6 +22,7 @@ export const ListItem = styled.li`
   padding: 10px 20px;
   display: flex;
   flex-direction: column;
+  
   align-items: center;
   gap: 10px;
   border: 1px solid;
