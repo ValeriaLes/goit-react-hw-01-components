@@ -1,23 +1,10 @@
 import { styled } from 'styled-components';
 
 export const List = styled.ul`
-  text-align: center;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 0;
   list-style-type: none;
 `;
-
-export const FriendItem = styled.li`
-display: flex;
-
-`
-
-export const FriendIsOnline = styled.span`
-background-color: ${({status}) => (status ? 'green' : 'red')};
-height: 10px;
-border-radius: 50%;
-
-
-`
-
-
-

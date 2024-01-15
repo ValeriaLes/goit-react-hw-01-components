@@ -1,8 +1,8 @@
-import { FriendItem, FriendIsOnline } from "./FriendList.styled";
+import { FriendItem, FriendIsOnline } from "./FriendListItem.styled";
 
 
 export const FriendListItem = (props) => {
-    console.log(props)
+   
     return (
       
       <FriendItem key={props.id}>
