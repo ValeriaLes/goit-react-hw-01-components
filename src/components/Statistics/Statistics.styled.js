@@ -26,4 +26,14 @@ export const ListItem = styled.li`
   align-items: center;
   gap: 10px;
   border: 1px solid;
+
+  span {
+    font-weight: 500;
+  }
 `;
+
+
+export const Title = styled.h2`
+margin: 0;
+text-align: center;
+`

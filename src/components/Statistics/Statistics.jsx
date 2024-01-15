@@ -1,4 +1,4 @@
-import {Section, List, ListItem} from './Statistics.styled'
+import {Section, List, ListItem, Title} from './Statistics.styled'
 
 
 
@@ -6,7 +6,7 @@ export const Statistics = ({ stats, title }) => {
   
     return (
       <Section>
-        {title && <h2>{title}</h2>}
+        {title && <Title>{title}</Title>}
         <List>
             {stats.map(stat => (
                  <ListItem key={stat.id}>
